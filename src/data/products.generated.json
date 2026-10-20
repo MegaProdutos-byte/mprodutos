@@ -14,7 +14,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-20T14:29:40.722Z"
+    "updatedAt": "2026-10-20T14:47:13.053Z"
   },
   {
     "id": "MLB18725308",
@@ -31,7 +31,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-20T14:29:40.267Z"
+    "updatedAt": "2026-10-20T14:47:13.030Z"
   },
   {
     "id": "MLB6087971",
@@ -48,7 +48,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-20T14:29:40.257Z"
+    "updatedAt": "2026-10-20T14:47:13.050Z"
   },
   {
     "id": "MLB19140415",
@@ -65,7 +65,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-20T14:29:40.275Z"
+    "updatedAt": "2026-10-20T14:47:13.125Z"
   },
   {
     "id": "MLB18725403",
@@ -82,7 +82,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-20T14:29:41.849Z"
+    "updatedAt": "2026-10-20T14:47:14.656Z"
   },
   {
     "id": "MLB39230611",
@@ -99,7 +99,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-20T14:29:42.449Z"
+    "updatedAt": "2026-10-20T14:47:14.703Z"
   },
   {
     "id": "MLB19698479",
@@ -116,7 +116,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-20T14:29:41.821Z"
+    "updatedAt": "2026-10-20T14:47:14.545Z"
   },
   {
     "id": "MLB18630341",
@@ -133,7 +133,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-20T14:29:42.341Z"
+    "updatedAt": "2026-10-20T14:47:14.758Z"
   },
   {
     "id": "MLB19603205",
@@ -150,7 +150,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-20T14:29:43.582Z"
+    "updatedAt": "2026-10-20T14:47:16.074Z"
   },
   {
     "id": "MLB61994227",
@@ -167,7 +167,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-20T14:29:43.820Z"
+    "updatedAt": "2026-10-20T14:47:16.494Z"
   },
   {
     "id": "MLB50196682",
@@ -184,7 +184,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-20T14:29:43.932Z"
+    "updatedAt": "2026-10-20T14:47:16.148Z"
   },
   {
     "id": "MLB51757399",
@@ -201,7 +201,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-20T14:29:44.051Z"
+    "updatedAt": "2026-10-20T14:47:16.296Z"
   },
   {
     "id": "MLB39960346",
@@ -218,7 +218,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-20T14:29:45.217Z"
+    "updatedAt": "2026-10-20T14:47:17.557Z"
   },
   {
     "id": "MLB18010993",
@@ -235,7 +235,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-20T14:29:45.360Z"
+    "updatedAt": "2026-10-20T14:47:17.870Z"
   },
   {
     "id": "MLB15345937",
@@ -252,7 +252,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-20T14:29:45.512Z"
+    "updatedAt": "2026-10-20T14:47:18.255Z"
   },
   {
     "id": "MLB24473062",
@@ -269,7 +269,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-20T14:29:45.596Z"
+    "updatedAt": "2026-10-20T14:47:17.960Z"
   },
   {
     "id": "MLB34016199",
@@ -286,15 +286,15 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-20T14:29:46.797Z"
+    "updatedAt": "2026-10-20T14:47:19.055Z"
   },
   {
     "id": "MLB39766120",
     "name": "SSD Kingston NV3 1TB M.2 2280 PCIe 4.0 NVMe 6000 MB/s",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_930129-MLU78451929490_082024-V.webp",
-    "price": "970,00",
-    "oldPrice": "1.382,00",
-    "installment": "12x R$ 94,16",
+    "price": "955,00",
+    "oldPrice": null,
+    "installment": "12x R$ 92,71",
     "freeShipping": false,
     "highlight": null,
     "officialStore": false,
@@ -303,7 +303,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-20T14:29:46.922Z"
+    "updatedAt": "2026-10-20T14:47:19.822Z"
   },
   {
     "id": "MLB48468943",
@@ -320,7 +320,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-20T14:29:47.096Z"
+    "updatedAt": "2026-10-20T14:47:19.808Z"
   },
   {
     "id": "MLB22341315",
@@ -337,7 +337,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-20T14:29:47.244Z"
+    "updatedAt": "2026-10-20T14:47:19.973Z"
   },
   {
     "id": "MLB13409956",
@@ -354,7 +354,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-20T14:29:48.341Z"
+    "updatedAt": "2026-10-20T14:47:20.996Z"
   },
   {
     "id": "MLB18932156",
@@ -371,7 +371,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-20T14:29:48.642Z"
+    "updatedAt": "2026-10-20T14:47:21.792Z"
   },
   {
     "id": "MLB27080589",
@@ -388,7 +388,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-20T14:29:48.687Z"
+    "updatedAt": "2026-10-20T14:47:22.063Z"
   },
   {
     "id": "MLB20306137",
@@ -405,7 +405,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-20T14:29:48.838Z"
+    "updatedAt": "2026-10-20T14:47:21.915Z"
   },
   {
     "id": "MLB21672188",
@@ -422,7 +422,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-20T14:29:49.913Z"
+    "updatedAt": "2026-10-20T14:47:22.607Z"
   },
   {
     "id": "MLB25363151",
@@ -439,7 +439,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-20T14:29:50.280Z"
+    "updatedAt": "2026-10-20T14:47:23.296Z"
   },
   {
     "id": "MLB18238727",
@@ -456,24 +456,24 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-20T14:29:50.221Z"
+    "updatedAt": "2026-10-20T14:47:23.466Z"
   },
   {
     "id": "MLB15578948",
     "name": "Liquidificador Turbo Power Mondial 550W - L-99 FB",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_744049-MLA99539379058_122025-V.webp",
-    "price": "87,46",
+    "price": "94,04",
     "oldPrice": "172,90",
-    "installment": "ou R$ 94,04 em outros meios",
+    "installment": null,
     "freeShipping": false,
-    "highlight": "MAIS VENDIDO",
+    "highlight": null,
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1SdDe4z",
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-20T14:29:50.332Z"
+    "updatedAt": "2026-10-20T14:47:23.536Z"
   },
   {
     "id": "MLB16602518",
@@ -490,7 +490,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-20T14:29:51.508Z"
+    "updatedAt": "2026-10-20T14:47:24.220Z"
   },
   {
     "id": "MLB25741527",
@@ -507,7 +507,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-20T14:29:51.810Z"
+    "updatedAt": "2026-10-20T14:47:24.742Z"
   },
   {
     "id": "MLB30144703",
@@ -524,7 +524,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-20T14:29:51.851Z"
+    "updatedAt": "2026-10-20T14:47:25.106Z"
   },
   {
     "id": "MLB4317803385",
@@ -541,7 +541,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-20T14:29:51.803Z"
+    "updatedAt": "2026-10-20T14:47:25.461Z"
   },
   {
     "id": "MLB24076624",
@@ -558,7 +558,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-20T14:29:53.140Z"
+    "updatedAt": "2026-10-20T14:47:25.708Z"
   },
   {
     "id": "MLB64896669",
@@ -575,7 +575,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-20T14:29:53.360Z"
+    "updatedAt": "2026-10-20T14:47:26.263Z"
   },
   {
     "id": "MLB3621404839",
@@ -585,14 +585,14 @@
     "oldPrice": "229,90",
     "installment": "ou R$ 107,64 em outros meios",
     "freeShipping": false,
-    "highlight": null,
+    "highlight": "MAIS VENDIDO",
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/19kY6DN",
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-20T14:29:53.737Z"
+    "updatedAt": "2026-10-20T14:47:26.761Z"
   },
   {
     "id": "MLB24656724",
@@ -609,7 +609,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-20T14:29:53.325Z"
+    "updatedAt": "2026-10-20T14:47:26.961Z"
   },
   {
     "id": "MLB69649128",
@@ -626,7 +626,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-20T14:29:54.729Z"
+    "updatedAt": "2026-10-20T14:47:27.697Z"
   },
   {
     "id": "MLB62519400",
@@ -643,7 +643,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-20T14:29:55.109Z"
+    "updatedAt": "2026-10-20T14:47:27.879Z"
   },
   {
     "id": "MLB79915624",
@@ -660,7 +660,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-20T14:29:55.008Z"
+    "updatedAt": "2026-10-20T14:47:28.629Z"
   },
   {
     "id": "MLB4501167459",
@@ -677,7 +677,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-20T14:29:55.394Z"
+    "updatedAt": "2026-10-20T14:47:28.461Z"
   },
   {
     "id": "MLB54982411",
@@ -694,7 +694,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-20T14:29:56.500Z"
+    "updatedAt": "2026-10-20T14:47:29.130Z"
   },
   {
     "id": "MLB67410010",
@@ -711,7 +711,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-20T14:29:56.759Z"
+    "updatedAt": "2026-10-20T14:47:29.389Z"
   },
   {
     "id": "MLB55762063",
@@ -728,7 +728,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-20T14:29:56.725Z"
+    "updatedAt": "2026-10-20T14:47:30.039Z"
   },
   {
     "id": "MLB54961556",
@@ -745,7 +745,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-20T14:29:56.940Z"
+    "updatedAt": "2026-10-20T14:47:30.425Z"
   },
   {
     "id": "MLB63364148",
@@ -762,7 +762,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-20T14:29:58.018Z"
+    "updatedAt": "2026-10-20T14:47:30.629Z"
   },
   {
     "id": "MLB65041642",
@@ -779,7 +779,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-20T14:29:58.636Z"
+    "updatedAt": "2026-10-20T14:47:30.902Z"
   },
   {
     "id": "MLB47889235",
@@ -796,7 +796,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-20T14:29:58.307Z"
+    "updatedAt": "2026-10-20T14:47:31.528Z"
   },
   {
     "id": "MLB47814270",
@@ -813,7 +813,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-20T14:29:58.412Z"
+    "updatedAt": "2026-10-20T14:47:31.850Z"
   },
   {
     "id": "MLB1019713876",
@@ -830,7 +830,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-20T14:29:59.605Z"
+    "updatedAt": "2026-10-20T14:47:32.141Z"
   },
   {
     "id": "MLB25263382",
@@ -847,7 +847,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-20T14:29:59.888Z"
+    "updatedAt": "2026-10-20T14:47:32.606Z"
   },
   {
     "id": "MLB21278806",
@@ -864,7 +864,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-20T14:29:59.961Z"
+    "updatedAt": "2026-10-20T14:47:33.134Z"
   },
   {
     "id": "MLB23487120",
@@ -881,7 +881,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-20T14:30:00.218Z"
+    "updatedAt": "2026-10-20T14:47:33.614Z"
   },
   {
     "id": "MLB63966639",
@@ -898,7 +898,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-20T14:30:01.158Z"
+    "updatedAt": "2026-10-20T14:47:33.727Z"
   },
   {
     "id": "MLB60276890",
@@ -915,7 +915,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-20T14:30:01.564Z"
+    "updatedAt": "2026-10-20T14:47:34.290Z"
   },
   {
     "id": "MLB40656539",
@@ -932,7 +932,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-20T14:30:01.630Z"
+    "updatedAt": "2026-10-20T14:47:34.645Z"
   },
   {
     "id": "MLB11286621",
@@ -949,7 +949,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-20T14:30:01.833Z"
+    "updatedAt": "2026-10-20T14:47:35.114Z"
   },
   {
     "id": "MLB61496034",
@@ -966,7 +966,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-20T14:30:02.877Z"
+    "updatedAt": "2026-10-20T14:47:35.261Z"
   },
   {
     "id": "MLB50592250",
@@ -983,7 +983,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-20T14:30:03.156Z"
+    "updatedAt": "2026-10-20T14:47:35.760Z"
   },
   {
     "id": "MLB27065699",
@@ -1000,7 +1000,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-20T14:30:03.200Z"
+    "updatedAt": "2026-10-20T14:47:36.122Z"
   },
   {
     "id": "MLB50389060",
@@ -1017,7 +1017,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-20T14:30:03.448Z"
+    "updatedAt": "2026-10-20T14:47:36.873Z"
   },
   {
     "id": "MLB44923446",
@@ -1034,7 +1034,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-20T14:30:04.432Z"
+    "updatedAt": "2026-10-20T14:47:36.729Z"
   },
   {
     "id": "MLB45474714",
@@ -1051,7 +1051,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-20T14:30:05.246Z"
+    "updatedAt": "2026-10-20T14:47:37.215Z"
   },
   {
     "id": "MLB5532075156",
@@ -1068,7 +1068,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-20T14:30:04.894Z"
+    "updatedAt": "2026-10-20T14:47:37.605Z"
   },
   {
     "id": "MLB3616720913",
@@ -1085,7 +1085,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-20T14:30:04.972Z"
+    "updatedAt": "2026-10-20T14:47:38.238Z"
   },
   {
     "id": "MLB4592320910",
@@ -1102,7 +1102,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-20T14:30:05.934Z"
+    "updatedAt": "2026-10-20T14:47:38.331Z"
   },
   {
     "id": "MLB6233803300",
@@ -1112,14 +1112,14 @@
     "oldPrice": "79,90",
     "installment": null,
     "freeShipping": false,
-    "highlight": "MAIS VENDIDO",
+    "highlight": null,
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1N4RPns",
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-20T14:30:06.451Z"
+    "updatedAt": "2026-10-20T14:47:38.675Z"
   },
   {
     "id": "MLB4182420507",
@@ -1136,7 +1136,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-20T14:30:06.550Z"
+    "updatedAt": "2026-10-20T14:47:39.092Z"
   },
   {
     "id": "MLB3396120483",
@@ -1153,7 +1153,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-20T14:30:06.807Z"
+    "updatedAt": "2026-10-20T14:47:39.734Z"
   },
   {
     "id": "MLB5044170500",
@@ -1170,7 +1170,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-20T14:30:07.482Z"
+    "updatedAt": "2026-10-20T14:47:39.795Z"
   },
   {
     "id": "MLB5004194280",
@@ -1187,6 +1187,6 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-20T14:30:07.993Z"
+    "updatedAt": "2026-10-20T14:47:40.124Z"
   }
 ]
