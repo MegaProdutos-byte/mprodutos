@@ -142,12 +142,9 @@ Edite o array em `src/data/categories.js`. Para dar um ícone a uma categoria no
 adicione-a em `CATEGORY_ICONS` dentro de `src/components/Icons.jsx` (sem isso ela
 usa um ícone padrão).
 
-## Publicar e atualizar o site
+## Atualizar o projeto no GitHub
 
-O site é publicado no GitHub Pages automaticamente a cada envio para o
-GitHub (configuração em `.github/workflows/deploy.yml`).
-
-Para atualizar o site depois de mudar produtos ou preços:
+Depois de mudar produtos ou preços:
 
 ```
 npm run atualizar
@@ -155,6 +152,3 @@ git add .
 git commit -m "Atualiza produtos"
 git push
 ```
-
-Em cerca de 1 minuto o site no ar reflete as mudanças. O andamento aparece
-na aba **Actions** do repositório.
