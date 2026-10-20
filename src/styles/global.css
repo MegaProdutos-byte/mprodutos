@@ -1,0 +1,133 @@
+/* ============================================================
+   Cores e base. Paleta original mantida:
+   verde do topo, vermelho de destaque, amarelo do banner.
+   ============================================================ */
+:root {
+  --header-1: #0e6800;
+  --header-2: #083601;
+  --brand: #e71111;
+  --brand-dark: #8a0101;
+  --yellow: #ffd100;
+  --yellow-2: #ffb800;
+  --green: #00a650;
+
+  --bg: #ebebeb;
+  --card: #ffffff;
+  --surface-2: #f5f5f5;
+  --text: #222222;
+  --muted: #6b6b6b;
+  --subtle: #9a9a9a;
+  --border: #e6e6e6;
+
+  --radius: 8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .08);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, .12);
+  --container: 1200px;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121212;
+    --card: #1c1c1e;
+    --surface-2: #26262a;
+    --text: #f1f1f1;
+    --muted: #a8a8a8;
+    --subtle: #7a7a7a;
+    --border: #2e2e32;
+    --green: #2fc777;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, .5);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, .55);
+    color-scheme: dark;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 16px;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.panel {
+  background: var(--card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.btn-primary {
+  background: var(--brand);
+  color: #fff;
+  border: 0;
+  border-radius: var(--radius);
+  padding: 11px 20px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: var(--brand-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; }
+}

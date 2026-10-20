@@ -1,0 +1,11 @@
+# Dependências (reinstaladas com "npm install")
+node_modules/
+
+# Build gerado por "npm run build"
+dist/
+
+# Arquivos do sistema e de editores
+.DS_Store
+Thumbs.db
+*.log
+.vscode/

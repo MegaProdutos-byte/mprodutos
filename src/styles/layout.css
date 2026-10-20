@@ -1,0 +1,227 @@
+/* ============================================================
+   Cabeçalho e rodapé
+   ============================================================ */
+.site-header {
+  background: linear-gradient(135deg, var(--header-1), var(--header-2));
+  color: #fff;
+}
+
+.topstrip {
+  background: rgba(0, 0, 0, .22);
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.topstrip .container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: rgba(255, 255, 255, .9);
+}
+
+.topstrip-sep {
+  color: var(--yellow);
+}
+
+/* Topo centralizado: nome, busca e menu de categorias empilhados no centro. */
+.header-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding-top: 14px;
+  padding-bottom: 12px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+/* Logo (imagem em public/logo.png). A altura define o tamanho; a largura
+   acompanha a proporção da imagem. */
+.logo-img {
+  display: block;
+  height: 64px;
+  width: auto;
+}
+
+/* Busca */
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  max-width: 640px;
+  overflow: hidden;
+}
+
+.search input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #222;
+  padding: 11px 14px;
+  font-size: 15px;
+}
+
+.search input::placeholder {
+  color: #9a9a9a;
+}
+
+.search input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.search:focus-within {
+  box-shadow: 0 0 0 3px rgba(255, 209, 0, .7);
+}
+
+.search-clear,
+.search-submit {
+  display: grid;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  color: #777;
+}
+
+.search-clear {
+  padding: 0 8px;
+}
+
+.search-submit {
+  align-self: stretch;
+  padding: 0 16px;
+  border-left: 1px solid #e6e6e6;
+}
+
+.search-submit:hover {
+  color: var(--brand);
+}
+
+/* Menu de categorias */
+.header-nav {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 8px;
+}
+
+/* Centraliza o menu; as margens automáticas (em vez de justify-content)
+   mantêm a rolagem lateral funcionando quando o menu não cabe na tela. */
+.header-nav > :first-child {
+  margin-left: auto;
+}
+
+.header-nav > :last-child {
+  margin-right: auto;
+}
+
+.header-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-link {
+  flex-shrink: 0;
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, .85);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, .1);
+}
+
+.nav-link.is-active {
+  background: #fff;
+  color: var(--header-1);
+  font-weight: 600;
+}
+
+/* Rodapé */
+.site-footer {
+  margin-top: 40px;
+  background: var(--card);
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 32px;
+  padding-top: 36px;
+  padding-bottom: 32px;
+}
+
+.footer-grid h3 {
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.footer-brand .logo {
+  margin-bottom: 10px;
+}
+
+.footer-brand .logo-img {
+  height: 52px;
+}
+
+.footer-brand p {
+  max-width: 340px;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border);
+  font-size: 12.5px;
+}
+
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 760px) {
+  .topstrip .container > :not(:first-child) {
+    display: none;
+  }
+
+  .search {
+    max-width: none;
+  }
+
+  .logo-img {
+    height: 48px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
