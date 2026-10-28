@@ -4,7 +4,7 @@ const ITEMS = [
   { Icon: TagIcon, title: 'Ofertas selecionadas', text: 'Atualizadas todos os dias' },
   { Icon: TruckIcon, title: 'Frete grátis', text: 'Veja o selo em cada produto' },
   { Icon: CardIcon, title: 'Parcelamento', text: 'Informado em cada produto' },
-  { Icon: ShieldIcon, title: 'Compre onde preferir', text: 'Na loja, com a sua conta' },
+  { Icon: ShieldIcon, title: 'Compra no Mercado Livre', text: 'Com a sua conta e segurança' },
 ]
 
 export default function Benefits() {

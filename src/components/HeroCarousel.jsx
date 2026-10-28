@@ -20,8 +20,8 @@ const SLIDES = [
     theme: 'green',
     art: 'deal',
     eyebrow: 'Seleção do dia',
-    title: 'As melhores ofertas das maiores lojas',
-    text: 'Mercado Livre, Shopee, Amazon e TikTok Shop reunidos em um só lugar.',
+    title: 'As melhores ofertas do Mercado Livre',
+    text: 'Produtos selecionados com preço baixo, frete grátis e parcelamento.',
     cta: 'Ver ofertas',
     href: '#produtos',
   },
@@ -29,8 +29,8 @@ const SLIDES = [
     theme: 'amber',
     art: 'steps',
     eyebrow: 'Como funciona',
-    title: 'Escolha aqui, compre onde preferir',
-    text: 'Ao clicar no produto você vai direto para a loja, com sua conta, endereço e pagamento.',
+    title: 'Escolha aqui, compre no Mercado Livre',
+    text: 'Ao clicar no produto você vai direto para o anúncio no Mercado Livre, com sua conta, endereço e pagamento.',
     cta: 'Começar',
     href: '#produtos',
   },
@@ -67,7 +67,7 @@ function DealArt() {
 
 const STEPS = [
   { Icon: SearchIcon, text: 'Encontre o produto' },
-  { Icon: ExternalIcon, text: 'Clique e vá para a loja' },
+  { Icon: ExternalIcon, text: 'Clique e vá ao Mercado Livre' },
   { Icon: ShieldIcon, text: 'Compre com a sua conta' },
 ]
 
