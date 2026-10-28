@@ -119,7 +119,6 @@ export default function App() {
           products={visibleProducts}
           stores={stores}
           storeCounts={storeCounts}
-          totalCount={products.length}
           store={store}
           onStoreChange={setStore}
           query={query}

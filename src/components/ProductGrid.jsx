@@ -1,6 +1,5 @@
 import ProductCard from './ProductCard.jsx'
 import { CloseIcon } from './Icons.jsx'
-import { getStore } from '../data/stores.js'
 
 export const SORT_OPTIONS = [
   { value: 'relevance', label: 'Mais relevantes' },
@@ -14,7 +13,6 @@ export default function ProductGrid({
   products,
   stores,
   storeCounts,
-  totalCount,
   store,
   onStoreChange,
   query,
@@ -25,27 +23,30 @@ export default function ProductGrid({
   onClearFilters,
 }) {
   const hasFilters = query || selected.length > 0
-  const storeIsEmpty = store && storeCounts[store] === 0
-  const tabs = [{ id: null, name: 'Todas as lojas', count: totalCount }, ...stores.map((s) => ({ ...s, count: storeCounts[s.id] }))]
+  // Só aparecem abas das lojas que têm produtos; com uma loja só, as abas
+  // ficam escondidas (voltam sozinhas quando houver produtos de outra loja).
+  const storesWithProducts = stores.filter((s) => storeCounts[s.id] > 0)
+  const tabs = [{ id: null, name: 'Todas as lojas' }, ...storesWithProducts]
 
   return (
     <section id="produtos" className="panel products" aria-labelledby="products-title">
-      <div className="store-tabs" role="tablist" aria-label="Escolha a loja">
-        {tabs.map((tab) => (
-          <button
-            key={tab.id ?? 'todas'}
-            type="button"
-            role="tab"
-            aria-selected={store === tab.id}
-            className={'store-tab' + (store === tab.id ? ' is-active' : '')}
-            onClick={() => onStoreChange(tab.id)}
-          >
-            {tab.id ? <span className="store-dot" style={{ background: tab.color }} aria-hidden="true" /> : null}
-            {tab.name}
-            {tab.count === 0 ? <span className="store-count">em breve</span> : null}
-          </button>
-        ))}
-      </div>
+      {storesWithProducts.length > 1 ? (
+        <div className="store-tabs" role="tablist" aria-label="Escolha a loja">
+          {tabs.map((tab) => (
+            <button
+              key={tab.id ?? 'todas'}
+              type="button"
+              role="tab"
+              aria-selected={store === tab.id}
+              className={'store-tab' + (store === tab.id ? ' is-active' : '')}
+              onClick={() => onStoreChange(tab.id)}
+            >
+              {tab.id ? <span className="store-dot" style={{ background: tab.color }} aria-hidden="true" /> : null}
+              {tab.name}
+            </button>
+          ))}
+        </div>
+      ) : null}
 
       <div className="products-head">
         <div>
@@ -86,25 +87,13 @@ export default function ProductGrid({
         </div>
       ) : (
         <div className="empty">
-          {storeIsEmpty ? (
-            <>
-              <p className="empty-title">Em breve, produtos {getStore(store).of}</p>
-              <p className="empty-text">Enquanto isso, confira as ofertas das outras lojas.</p>
-              <button type="button" className="btn-primary" onClick={() => onStoreChange(null)}>
-                Ver todas as lojas
-              </button>
-            </>
-          ) : (
-            <>
-              <p className="empty-title">Nenhum produto encontrado</p>
-              <p className="empty-text">Revise a busca ou remova alguns filtros.</p>
-              {hasFilters ? (
-                <button type="button" className="btn-primary" onClick={onClearFilters}>
-                  Limpar filtros
-                </button>
-              ) : null}
-            </>
-          )}
+          <p className="empty-title">Nenhum produto encontrado</p>
+          <p className="empty-text">Revise a busca ou remova alguns filtros.</p>
+          {hasFilters ? (
+            <button type="button" className="btn-primary" onClick={onClearFilters}>
+              Limpar filtros
+            </button>
+          ) : null}
         </div>
       )}
     </section>

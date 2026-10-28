@@ -721,12 +721,4 @@
   box-shadow: 0 0 0 1px rgba(127, 127, 127, .45);
 }
 
-.store-count {
-  padding: 1px 7px;
-  border-radius: 999px;
-  background: var(--surface-2);
-  color: var(--muted);
-  font-size: 11.5px;
-  font-weight: 600;
-}
 
