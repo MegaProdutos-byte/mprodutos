@@ -14,7 +14,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-30T17:33:48.900Z"
+    "updatedAt": "2026-10-30T17:57:29.968Z"
   },
   {
     "id": "MLB18725308",
@@ -31,7 +31,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-30T17:33:48.914Z"
+    "updatedAt": "2026-10-30T17:57:29.897Z"
   },
   {
     "id": "MLB6087971",
@@ -48,7 +48,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-30T17:33:48.849Z"
+    "updatedAt": "2026-10-30T17:57:29.903Z"
   },
   {
     "id": "MLB19140415",
@@ -65,24 +65,24 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-30T17:33:48.870Z"
+    "updatedAt": "2026-10-30T17:57:29.890Z"
   },
   {
     "id": "MLB18725403",
     "name": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_819000-MLA101180020755_122025-V.webp",
-    "price": "98,91",
-    "oldPrice": "109,90",
-    "installment": "ou R$ 109,90 em outros meios",
+    "price": "74,90",
+    "oldPrice": "104,90",
+    "installment": null,
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
-    "officialStore": false,
+    "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2CF2Hzg",
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-30T17:33:50.369Z"
+    "updatedAt": "2026-10-30T17:57:31.461Z"
   },
   {
     "id": "MLB39230611",
@@ -99,7 +99,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-30T17:33:50.482Z"
+    "updatedAt": "2026-10-30T17:57:31.398Z"
   },
   {
     "id": "MLB19698479",
@@ -116,7 +116,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-30T17:33:50.397Z"
+    "updatedAt": "2026-10-30T17:57:31.600Z"
   },
   {
     "id": "MLB18630341",
@@ -133,7 +133,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-30T17:33:50.445Z"
+    "updatedAt": "2026-10-30T17:57:31.474Z"
   },
   {
     "id": "MLB19603205",
@@ -150,7 +150,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-30T17:33:51.858Z"
+    "updatedAt": "2026-10-30T17:57:32.886Z"
   },
   {
     "id": "MLB61994227",
@@ -167,7 +167,7 @@
     "categories": [
       "Esportes"
     ],
-    "updatedAt": "2026-10-30T17:33:51.833Z"
+    "updatedAt": "2026-10-30T17:57:33.177Z"
   },
   {
     "id": "MLB50196682",
@@ -184,7 +184,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-30T17:33:51.934Z"
+    "updatedAt": "2026-10-30T17:57:33.197Z"
   },
   {
     "id": "MLB51757399",
@@ -201,15 +201,15 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-30T17:33:51.931Z"
+    "updatedAt": "2026-10-30T17:57:33.086Z"
   },
   {
     "id": "MLB39960346",
     "name": "Controle Sem Fio Joystick REDFIN Bluetooth Compatível Para Ps4 Videogame Tv Samsung Pc P4 Ps 4 Manete Pc Gamer Tv Smart Controle Bluetooth Celular Headset Sem Fio Com P2 Marca Redfin",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_762912-MLA105696431793_012026-V.webp",
-    "price": "52,76",
+    "price": "48,54",
     "oldPrice": "114,90",
-    "installment": null,
+    "installment": "ou R$ 52,76 em outros meios",
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
     "officialStore": false,
@@ -218,7 +218,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-30T17:33:53.426Z"
+    "updatedAt": "2026-10-30T17:57:34.379Z"
   },
   {
     "id": "MLB18010993",
@@ -235,7 +235,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-30T17:33:53.297Z"
+    "updatedAt": "2026-10-30T17:57:34.592Z"
   },
   {
     "id": "MLB15345937",
@@ -252,7 +252,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-30T17:33:53.591Z"
+    "updatedAt": "2026-10-30T17:57:34.940Z"
   },
   {
     "id": "MLB24473062",
@@ -269,7 +269,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-30T17:33:53.610Z"
+    "updatedAt": "2026-10-30T17:57:35.005Z"
   },
   {
     "id": "MLB34016199",
@@ -286,7 +286,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-30T17:33:54.729Z"
+    "updatedAt": "2026-10-30T17:57:35.843Z"
   },
   {
     "id": "MLB39766120",
@@ -303,7 +303,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-30T17:33:54.889Z"
+    "updatedAt": "2026-10-30T17:57:36.079Z"
   },
   {
     "id": "MLB48468943",
@@ -320,7 +320,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-30T17:33:55.155Z"
+    "updatedAt": "2026-10-30T17:57:36.448Z"
   },
   {
     "id": "MLB22341315",
@@ -337,7 +337,7 @@
     "categories": [
       "Games"
     ],
-    "updatedAt": "2026-10-30T17:33:55.126Z"
+    "updatedAt": "2026-10-30T17:57:36.484Z"
   },
   {
     "id": "MLB13409956",
@@ -354,24 +354,24 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-30T17:33:56.658Z"
+    "updatedAt": "2026-10-30T17:57:37.321Z"
   },
   {
     "id": "MLB18932156",
     "name": "Ventilador de Mesa 30cm Super Power Mondial 60W VSP-30-B",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_620576-MLA99958768953_112025-V.webp",
-    "price": "139,90",
-    "oldPrice": "189,90",
-    "installment": null,
+    "price": "114,76",
+    "oldPrice": "129,90",
+    "installment": "ou R$ 120,80 em outros meios",
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
-    "officialStore": true,
+    "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2zYUTgh",
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-30T17:33:56.547Z"
+    "updatedAt": "2026-10-30T17:57:37.612Z"
   },
   {
     "id": "MLB27080589",
@@ -405,7 +405,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-30T17:33:56.633Z"
+    "updatedAt": "2026-10-30T17:57:37.959Z"
   },
   {
     "id": "MLB21672188",
@@ -422,7 +422,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-30T17:33:58.015Z"
+    "updatedAt": "2026-10-30T17:57:38.793Z"
   },
   {
     "id": "MLB25363151",
@@ -439,7 +439,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-30T17:33:58.263Z"
+    "updatedAt": "2026-10-30T17:57:39.104Z"
   },
   {
     "id": "MLB18238727",
@@ -456,7 +456,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-30T17:33:58.102Z"
+    "updatedAt": "2026-10-30T17:57:39.404Z"
   },
   {
     "id": "MLB15578948",
@@ -473,15 +473,15 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-30T17:33:58.149Z"
+    "updatedAt": "2026-10-30T17:57:40.286Z"
   },
   {
     "id": "MLB16602518",
     "name": "Liquidificador Oster OLIQ610 1400w Full 3,2L Cor Preto",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_864038-MLA100027785333_122025-V.webp",
-    "price": "160,06",
+    "price": "160,65",
     "oldPrice": "299,00",
-    "installment": "ou R$ 177,84 em outros meios",
+    "installment": "ou R$ 178,50 em outros meios",
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
     "officialStore": false,
@@ -490,7 +490,7 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-30T17:33:59.504Z"
+    "updatedAt": "2026-10-30T17:57:40.710Z"
   },
   {
     "id": "MLB25741527",
@@ -507,15 +507,15 @@
     "categories": [
       "Eletrodomésticos"
     ],
-    "updatedAt": "2026-10-30T17:33:59.679Z"
+    "updatedAt": "2026-10-30T17:57:40.881Z"
   },
   {
     "id": "MLB30144703",
     "name": "Parafusadeira Furadeira De Impacto The Black Tools Profissional TB-21PX 2 Baterias Com Maleta 60Hz Amarelo",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_981459-MLA117136184907_092026-V.webp",
-    "price": "139,59",
+    "price": "155,10",
     "oldPrice": "259,90",
-    "installment": "ou R$ 155,10 em 5x R$ 31,02 sem juros",
+    "installment": "5x R$ 31,02 sem juros",
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
     "officialStore": true,
@@ -524,7 +524,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-30T17:33:59.663Z"
+    "updatedAt": "2026-10-30T17:57:41.911Z"
   },
   {
     "id": "MLB4317803385",
@@ -541,7 +541,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-30T17:33:59.929Z"
+    "updatedAt": "2026-10-30T17:57:42.159Z"
   },
   {
     "id": "MLB24076624",
@@ -558,7 +558,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-30T17:34:01.013Z"
+    "updatedAt": "2026-10-30T17:57:42.424Z"
   },
   {
     "id": "MLB64896669",
@@ -575,7 +575,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-30T17:34:01.193Z"
+    "updatedAt": "2026-10-30T17:57:43.435Z"
   },
   {
     "id": "MLB3621404839",
@@ -592,7 +592,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-30T17:34:01.155Z"
+    "updatedAt": "2026-10-30T17:57:43.771Z"
   },
   {
     "id": "MLB24656724",
@@ -609,7 +609,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-30T17:34:01.425Z"
+    "updatedAt": "2026-10-30T17:57:43.792Z"
   },
   {
     "id": "MLB69649128",
@@ -626,7 +626,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-30T17:34:02.531Z"
+    "updatedAt": "2026-10-30T17:57:43.924Z"
   },
   {
     "id": "MLB62519400",
@@ -643,7 +643,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-30T17:34:02.755Z"
+    "updatedAt": "2026-10-30T17:57:44.965Z"
   },
   {
     "id": "MLB79915624",
@@ -660,7 +660,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-30T17:34:02.697Z"
+    "updatedAt": "2026-10-30T17:57:45.371Z"
   },
   {
     "id": "MLB4501167459",
@@ -677,7 +677,7 @@
     "categories": [
       "Ferramentas"
     ],
-    "updatedAt": "2026-10-30T17:34:02.998Z"
+    "updatedAt": "2026-10-30T17:57:45.350Z"
   },
   {
     "id": "MLB54982411",
@@ -694,7 +694,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-30T17:34:03.984Z"
+    "updatedAt": "2026-10-30T17:57:45.405Z"
   },
   {
     "id": "MLB73209637",
@@ -711,7 +711,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-30T17:34:04.186Z"
+    "updatedAt": "2026-10-30T17:57:46.499Z"
   },
   {
     "id": "MLB55762063",
@@ -728,7 +728,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-30T17:34:04.283Z"
+    "updatedAt": "2026-10-30T17:57:46.934Z"
   },
   {
     "id": "MLB54961556",
@@ -745,7 +745,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-30T17:34:04.495Z"
+    "updatedAt": "2026-10-30T17:57:46.821Z"
   },
   {
     "id": "MLB54982411",
@@ -762,7 +762,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-30T17:34:05.546Z"
+    "updatedAt": "2026-10-30T17:57:46.817Z"
   },
   {
     "id": "MLB65041642",
@@ -779,7 +779,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-30T17:34:05.674Z"
+    "updatedAt": "2026-10-30T17:57:47.987Z"
   },
   {
     "id": "MLB47889235",
@@ -796,7 +796,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-30T17:34:05.758Z"
+    "updatedAt": "2026-10-30T17:57:48.334Z"
   },
   {
     "id": "MLB47814270",
@@ -813,7 +813,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-30T17:34:05.940Z"
+    "updatedAt": "2026-10-30T17:57:48.281Z"
   },
   {
     "id": "MLB1019713876",
@@ -847,7 +847,7 @@
     "categories": [
       "Celulares"
     ],
-    "updatedAt": "2026-10-30T17:34:07.182Z"
+    "updatedAt": "2026-10-30T17:57:49.912Z"
   },
   {
     "id": "MLB21278806",
@@ -864,7 +864,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-30T17:34:07.610Z"
+    "updatedAt": "2026-10-30T17:57:50.258Z"
   },
   {
     "id": "MLB68488129",
@@ -881,7 +881,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-30T17:34:07.495Z"
+    "updatedAt": "2026-10-30T17:57:50.340Z"
   },
   {
     "id": "MLB63966639",
@@ -898,7 +898,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-30T17:34:08.659Z"
+    "updatedAt": "2026-10-30T17:57:51.681Z"
   },
   {
     "id": "MLB60276890",
@@ -915,24 +915,24 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-30T17:34:09.004Z"
+    "updatedAt": "2026-10-30T17:57:51.767Z"
   },
   {
     "id": "MLB40656539",
     "name": "Starlink Mini Kit Antena Satélite com Roteador Wi-Fi",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_799612-MLA95359719699_102025-V.webp",
-    "price": "512,00",
+    "price": "525,00",
     "oldPrice": null,
-    "installment": "12x R$ 49,51",
+    "installment": "12x R$ 50,77",
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
-    "officialStore": true,
+    "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2D4Yb1s",
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-30T17:34:09.104Z"
+    "updatedAt": "2026-10-30T17:57:52.077Z"
   },
   {
     "id": "MLB11286621",
@@ -949,7 +949,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-30T17:34:10.138Z"
+    "updatedAt": "2026-10-30T17:57:53.158Z"
   },
   {
     "id": "MLB61496034",
@@ -966,7 +966,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-30T17:34:10.631Z"
+    "updatedAt": "2026-10-30T17:57:53.739Z"
   },
   {
     "id": "MLB50592250",
@@ -1000,7 +1000,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-30T17:34:11.694Z"
+    "updatedAt": "2026-10-30T17:57:54.790Z"
   },
   {
     "id": "MLB50389060",
@@ -1017,7 +1017,7 @@
     "categories": [
       "Informática"
     ],
-    "updatedAt": "2026-10-30T17:34:12.138Z"
+    "updatedAt": "2026-10-30T17:57:54.854Z"
   },
   {
     "id": "MLB44923446",
@@ -1034,7 +1034,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-30T17:34:12.891Z"
+    "updatedAt": "2026-10-30T17:57:55.172Z"
   },
   {
     "id": "MLB45474714",
@@ -1051,7 +1051,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-30T17:34:13.432Z"
+    "updatedAt": "2026-10-30T17:57:56.255Z"
   },
   {
     "id": "MLB5532075156",
@@ -1068,7 +1068,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-30T17:34:13.613Z"
+    "updatedAt": "2026-10-30T17:57:56.310Z"
   },
   {
     "id": "MLB3616720913",
@@ -1085,7 +1085,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-30T17:34:14.332Z"
+    "updatedAt": "2026-10-30T17:57:56.750Z"
   },
   {
     "id": "MLB4592320910",
@@ -1102,7 +1102,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-30T17:34:14.862Z"
+    "updatedAt": "2026-10-30T17:57:57.690Z"
   },
   {
     "id": "MLB6233803300",
@@ -1119,7 +1119,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-30T17:34:15.057Z"
+    "updatedAt": "2026-10-30T17:57:58.012Z"
   },
   {
     "id": "MLB4182420507",
@@ -1136,7 +1136,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-30T17:34:15.778Z"
+    "updatedAt": "2026-10-30T17:57:58.333Z"
   },
   {
     "id": "MLB3396120483",
@@ -1153,7 +1153,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-30T17:34:16.308Z"
+    "updatedAt": "2026-10-30T17:57:59.304Z"
   },
   {
     "id": "MLB5044170500",
@@ -1170,7 +1170,7 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-30T17:34:16.334Z"
+    "updatedAt": "2026-10-30T17:57:59.404Z"
   },
   {
     "id": "MLB5004194280",
@@ -1187,6 +1187,6 @@
     "categories": [
       "Moda"
     ],
-    "updatedAt": "2026-10-30T17:34:16.510Z"
+    "updatedAt": "2026-10-30T17:57:59.509Z"
   }
 ]
