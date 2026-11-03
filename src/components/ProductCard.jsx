@@ -1,4 +1,4 @@
-import { memo } from 'react'
+import { memo, useState } from 'react'
 import { BoltIcon, CheckBadgeIcon, ExternalIcon, ImageIcon } from './Icons.jsx'
 import { splitPrice } from '../utils/format.js'
 import { getStore } from '../data/stores.js'
@@ -20,14 +20,24 @@ export default memo(function ProductCard({ product }) {
   } = product
 
   const store = getStore(product.store)
+  // Se a foto não carregar (link da imagem fora do ar), mostra o aviso no lugar.
+  const [imageFailed, setImageFailed] = useState(false)
   const { reais, centavos } = splitPrice(price)
 
   return (
     <article className="card">
       <a className="card-link" href={link} target="_blank" rel="noopener noreferrer sponsored">
         <div className="card-thumb">
-          {image ? (
-            <img src={image} alt={name} loading="lazy" decoding="async" width="320" height="320" />
+          {image && !imageFailed ? (
+            <img
+              src={image}
+              alt={name}
+              loading="lazy"
+              decoding="async"
+              width="320"
+              height="320"
+              onError={() => setImageFailed(true)}
+            />
           ) : (
             <span className="card-placeholder">
               <ImageIcon size={40} />

@@ -1,5 +1,6 @@
-export default function Footer() {
+export default function Footer({ lastUpdate }) {
   const year = new Date().getFullYear()
+  const updatedOn = lastUpdate ? new Date(lastUpdate).toLocaleDateString('pt-BR') : null
 
   return (
     <footer id="rodape" className="site-footer">
@@ -25,7 +26,10 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="container">
           <span>© {year} MegaProdutos. Todos os direitos reservados.</span>
-          <span>Preços, frete e disponibilidade podem mudar no Mercado Livre.</span>
+          <span>
+            {updatedOn ? `Preços atualizados em ${updatedOn}. ` : null}
+            Preços, frete e disponibilidade podem mudar no Mercado Livre.
+          </span>
         </div>
       </div>
     </footer>

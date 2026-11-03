@@ -80,8 +80,12 @@ site de novo.
 
 Observações:
 
-- Se um produto falhar, o script mantém os últimos dados salvos dele (e avisa
-  no terminal). Um produto novo que falhar fica oculto até dar certo.
+- Se um produto falhar, o script mantém os últimos dados salvos dele e, no
+  final, lista os links que precisam de atenção. Um produto que fica **mais de
+  3 dias sem atualizar** some do site (o preço dele pode ter mudado) e volta
+  sozinho quando o link for corrigido. Um produto novo que falhar fica oculto
+  até dar certo.
+- O rodapé do site mostra a data da última atualização dos preços.
 - "Frete grátis" só aparece quando vale para todos. Se o Mercado Livre der frete
   grátis apenas "por ser sua primeira compra", o selo não é exibido.
 - O desconto (ex: `-38%`) é calculado a partir do preço e do preço antigo.

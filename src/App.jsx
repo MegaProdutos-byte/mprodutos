@@ -18,11 +18,20 @@ import { discountPercent, normalize, parsePrice } from './utils/format.js'
 // - Outras lojas: os dados vêm preenchidos à mão em products.js.
 const generatedByLink = new Map(generated.map((g) => [g.link, g]))
 
+// Data da última atualização (a mais recente entre os produtos), exibida no rodapé.
+const lastUpdate =generated.reduce((max, g) => (g.updatedAt > max ? g.updatedAt : max), '')
+
+// Produto que ficou mais de 3 dias sem atualizar em relação aos outros
+// (link quebrado ou anúncio fora do ar) é escondido: o preço dele pode não
+// valer mais no Mercado Livre. Volta sozinho quando o link for corrigido.
+const STALE_MS = 3 * 24 * 60 * 60 * 1000
+const isFresh = (g) => g && Date.parse(lastUpdate) - Date.parse(g.updatedAt) <= STALE_MS
+
 const products = productList.flatMap((item) => {
   const store = detectStore(item)
   const categories = item.categories ?? []
   const data = AUTO_STORES.includes(store)
-    ? generatedByLink.get(item.link)
+    ? [generatedByLink.get(item.link)].find(isFresh)
     : item.name && item.price
       ? { ...item, id: item.link }
       : null
@@ -130,7 +139,7 @@ export default function App() {
         />
       </main>
 
-      <Footer />
+      <Footer lastUpdate={lastUpdate} />
     </>
   )
 }

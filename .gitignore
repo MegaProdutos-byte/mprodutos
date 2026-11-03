@@ -9,3 +9,10 @@ dist/
 Thumbs.db
 *.log
 .vscode/
+
+# Configurações locais de ferramentas (não fazem parte do site).
+# .mcp.json guarda chaves de acesso: NUNCA deve ir para o GitHub.
+.mcp.json
+.claude/
+graphify-out/
+CLAUDE.md

@@ -97,7 +97,9 @@ function readJsonObject(text, start) {
 // O produto do link fica no bloco "card-featured" da página de afiliado.
 function findFeaturedCard(html) {
   const block = html.indexOf('"id":"card-featured"')
-  if (block === -1) throw new Error('produto em destaque não encontrado na página')
+  if (block === -1) {
+    throw new Error('o link não abre mais um produto (anúncio fora do ar ou link gerado errado)')
+  }
   const list = html.indexOf('"polycards":[', block)
   if (list === -1) throw new Error('dados do produto não encontrados')
   return readJsonObject(html, html.indexOf('{', list))
@@ -234,8 +236,8 @@ async function main() {
   const previous = new Map((await loadPrevious()).map((p) => [p.link, p]))
   // Mantém a ordem de products.js mesmo buscando vários ao mesmo tempo.
   const result = new Array(products.length)
+  const failures = []
   let ok = 0
-  let failed = 0
   let next = 0
 
   async function worker() {
@@ -247,24 +249,25 @@ async function main() {
       const saved = previous.get(product.link)
       try {
         const data = await fetchProduct(product, store)
+        // As categorias não vão para o arquivo gerado: o site as lê de products.js.
         result[i] = {
           ...data,
           id: data.id ?? product.link,
           store,
           link: product.link,
-          categories: product.categories ?? [],
           updatedAt: new Date().toISOString(),
         }
         ok++
         console.log(`✔ ${label}\n    ${data.name} — R$ ${data.price}`)
       } catch (err) {
-        failed++
+        // Mantém os últimos dados salvos; o site esconde o produto se ele
+        // ficar mais de 3 dias sem atualizar (o preço pode ter mudado).
         if (saved) {
-          result[i] = { ...saved, store, categories: product.categories ?? saved.categories ?? [] }
-          console.log(`✖ ${label}\n    ${err.message} (mantidos os dados de ${saved.updatedAt?.slice(0, 10)})`)
-        } else {
-          console.log(`✖ ${label}\n    ${err.message} (produto ficará oculto até a próxima atualização)`)
+          const { categories, ...rest } = saved // eslint-disable-line no-unused-vars
+          result[i] = { ...rest, store }
         }
+        failures.push({ product, message: err.message, savedAt: saved?.updatedAt })
+        console.log(`✖ ${label}\n    ${err.message}`)
       }
       await sleep(DELAY_MS)
     }
@@ -274,7 +277,17 @@ async function main() {
 
   await writeFile(OUTPUT, JSON.stringify(result.filter(Boolean), null, 2) + '\n')
   const seconds = Math.round((Date.now() - started) / 1000)
-  console.log(`\n${ok} atualizado(s), ${failed} com erro em ${seconds}s. Dados salvos em src/data/products.generated.json`)
+  console.log(`\n${ok} atualizado(s), ${failures.length} com erro em ${seconds}s. Dados salvos em src/data/products.generated.json`)
+
+  if (failures.length > 0) {
+    console.log('\nLinks que precisam de atenção (gere o link de afiliado de novo e troque em src/data/products.js):')
+    for (const { product, message, savedAt } of failures) {
+      const since = savedAt
+        ? `última atualização em ${new Date(savedAt).toLocaleDateString('pt-BR')}; some do site após 3 dias sem atualizar`
+        : 'ainda não aparece no site'
+      console.log(`  • ${product.link} (${(product.categories ?? []).join(', ') || 'sem categoria'}) — ${message}; ${since}`)
+    }
+  }
 }
 
 main()
