@@ -73,15 +73,11 @@ export default function App() {
   // A lista filtra com a busca "atrasada", para a digitação nunca travar.
   const deferredQuery = useDeferredValue(query)
 
+  // Uma categoria por vez: clicar em outra troca o filtro; clicar na mesma
+  // de novo (ou em "Todos") volta a mostrar tudo.
   function toggleCategory(category) {
-    if (category === 'Todos') {
-      setSelectedCategories([])
-      return
-    }
     setSelectedCategories((current) =>
-      current.includes(category)
-        ? current.filter((c) => c !== category)
-        : [...current, category]
+      category === 'Todos' || current.includes(category) ? [] : [category]
     )
   }
 
