@@ -159,11 +159,10 @@ export const products = [
     link: 'https://meli.la/1j2TFsV',
     categories: ['Eletrodomésticos'],
   },
-  // LINK QUEBRADO: gere o link de afiliado de novo, troque abaixo e tire as // das 4 linhas
-  // {
-  //   link: 'https://meli.la/2T8Dn7R',
-  //   categories: ['Eletrodomésticos'],
-  // },
+  {
+    link: 'https://meli.la/2T8Dn7R',
+    categories: ['Eletrodomésticos'],//
+  },
 
   //Ferramentas
   {
@@ -224,11 +223,10 @@ export const products = [
     link: 'https://meli.la/33Gc1Ny',
     categories: ['Celulares'],
   },
-  // PRODUTO REPETIDO: este link agora mostra o mesmo celular do 2SSf1E3. O anúncio
-  // original ("Smartphone Galaxy A17 Câmera Tripla 256 Gb 4g A175 Samsung") saiu do ar.
-  // Gere o link de afiliado de novo, troque abaixo e tire as // das 4 linhas.
+  // LINK REPETIDO: este é o link da Sanduicheira (o mesmo de Eletrodomésticos),
+  // colado aqui por engano. Coloque o link do celular, troque abaixo e tire as // das 4 linhas.
   // {
-  //   link: 'https://meli.la/2Y4PfTF',
+  //   link: 'https://meli.la/2T8Dn7R',
   //   categories: ['Celulares'],
   // },
   {
@@ -243,11 +241,10 @@ export const products = [
     link: 'https://meli.la/12GBYkW',
     categories: ['Celulares'],
   },
-  // LINK QUEBRADO: gere o link de afiliado de novo, troque abaixo e tire as // das 4 linhas
-  // {
-  //   link: 'https://meli.la/26jehTo',
-  //   categories: ['Celulares'],
-  // },
+  {
+    link: 'https://meli.la/1DXwoZM',
+    categories: ['Celulares'],//
+  },
   {
     link: 'https://meli.la/1GnWSYf',
     categories: ['Celulares'],
@@ -282,11 +279,10 @@ export const products = [
     link: 'https://meli.la/22Z1xwd',
     categories: ['Informática'],
   },
-  // LINK QUEBRADO: gere o link de afiliado de novo, troque abaixo e tire as // das 4 linhas
-  // {
-  //   link: 'https://meli.la/2FWBJRj',
-  //   categories: ['Informática'],
-  // },
+  {
+    link: 'https://meli.la/1eggT4G',
+    categories: ['Informática'],//
+  },
   {
     link: 'https://meli.la/1xtYZnk',
     categories: ['Informática'],

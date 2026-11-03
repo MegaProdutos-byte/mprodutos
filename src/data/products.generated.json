@@ -11,7 +11,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1KzAaBQ",
-    "updatedAt": "2026-11-03T17:53:16.035Z"
+    "updatedAt": "2026-11-03T18:36:30.834Z"
   },
   {
     "id": "MLB18725308",
@@ -25,7 +25,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2DyfHbV",
-    "updatedAt": "2026-11-03T17:53:16.031Z"
+    "updatedAt": "2026-11-03T18:36:30.837Z"
   },
   {
     "id": "MLB6087971",
@@ -39,7 +39,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2ZAb4FP",
-    "updatedAt": "2026-11-03T17:53:16.014Z"
+    "updatedAt": "2026-11-03T18:36:30.826Z"
   },
   {
     "id": "MLB19140415",
@@ -53,21 +53,21 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1WL9rCS",
-    "updatedAt": "2026-11-03T17:53:15.979Z"
+    "updatedAt": "2026-11-03T18:36:30.936Z"
   },
   {
     "id": "MLB18725403",
     "name": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_819000-MLA101180020755_122025-V.webp",
-    "price": "78,90",
-    "oldPrice": null,
+    "price": "74,90",
+    "oldPrice": "104,90",
     "installment": null,
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
-    "officialStore": false,
+    "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2CF2Hzg",
-    "updatedAt": "2026-11-03T17:53:17.581Z"
+    "updatedAt": "2026-11-03T18:36:32.322Z"
   },
   {
     "id": "MLB39230611",
@@ -81,7 +81,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1sFfS4J",
-    "updatedAt": "2026-11-03T17:53:17.606Z"
+    "updatedAt": "2026-11-03T18:36:32.346Z"
   },
   {
     "id": "MLB19698479",
@@ -95,7 +95,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2vBC8nY",
-    "updatedAt": "2026-11-03T17:53:17.592Z"
+    "updatedAt": "2026-11-03T18:36:32.334Z"
   },
   {
     "id": "MLB18630341",
@@ -109,7 +109,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2uAon6V",
-    "updatedAt": "2026-11-03T17:53:17.604Z"
+    "updatedAt": "2026-11-03T18:36:32.453Z"
   },
   {
     "id": "MLB19603205",
@@ -123,7 +123,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/31aptb1",
-    "updatedAt": "2026-11-03T17:53:19.066Z"
+    "updatedAt": "2026-11-03T18:36:34.305Z"
   },
   {
     "id": "MLB61994227",
@@ -137,7 +137,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2k8GViM",
-    "updatedAt": "2026-11-03T17:53:19.176Z"
+    "updatedAt": "2026-11-03T18:36:33.897Z"
   },
   {
     "id": "MLB50196682",
@@ -151,7 +151,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2ciS6uy",
-    "updatedAt": "2026-11-03T17:53:19.179Z"
+    "updatedAt": "2026-11-03T18:36:34.027Z"
   },
   {
     "id": "MLB51757399",
@@ -165,7 +165,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1bJYRM5",
-    "updatedAt": "2026-11-03T17:53:19.051Z"
+    "updatedAt": "2026-11-03T18:36:34.226Z"
   },
   {
     "id": "MLB39960346",
@@ -179,7 +179,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2hXtocW",
-    "updatedAt": "2026-11-03T17:53:20.516Z"
+    "updatedAt": "2026-11-03T18:36:35.463Z"
   },
   {
     "id": "MLB18010993",
@@ -193,21 +193,21 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/27uJgDv",
-    "updatedAt": "2026-11-03T17:53:20.512Z"
+    "updatedAt": "2026-11-03T18:36:35.786Z"
   },
   {
     "id": "MLB15345937",
     "name": "Fone De Ouvido Headset Gamer Havit H2002d P3 Para PS3/PS4/PS5/XBOX/PC Cor Preto",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_759854-MLA99487952684_112025-V.webp",
-    "price": "179,00",
-    "oldPrice": "219,00",
-    "installment": "12x R$ 17,69",
+    "price": "163,68",
+    "oldPrice": "200,20",
+    "installment": "ou R$ 176,00 em 3x R$ 58,67 sem juros",
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2xXv6KB",
-    "updatedAt": "2026-11-03T17:53:20.657Z"
+    "updatedAt": "2026-11-03T18:36:35.849Z"
   },
   {
     "id": "MLB24473062",
@@ -221,7 +221,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2qeZqD8",
-    "updatedAt": "2026-11-03T17:53:20.650Z"
+    "updatedAt": "2026-11-03T18:36:35.851Z"
   },
   {
     "id": "MLB34016199",
@@ -235,7 +235,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2kGEYYU",
-    "updatedAt": "2026-11-03T17:53:22.010Z"
+    "updatedAt": "2026-11-03T18:36:36.916Z"
   },
   {
     "id": "MLB39766120",
@@ -249,7 +249,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/31RuEVG",
-    "updatedAt": "2026-11-03T17:53:21.975Z"
+    "updatedAt": "2026-11-03T18:36:37.214Z"
   },
   {
     "id": "MLB48468943",
@@ -263,7 +263,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1iHha1t",
-    "updatedAt": "2026-11-03T17:53:22.153Z"
+    "updatedAt": "2026-11-03T18:36:37.381Z"
   },
   {
     "id": "MLB22341315",
@@ -277,7 +277,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1rNxTqg",
-    "updatedAt": "2026-11-03T17:53:22.150Z"
+    "updatedAt": "2026-11-03T18:36:37.587Z"
   },
   {
     "id": "MLB13409956",
@@ -291,21 +291,21 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/24invz4",
-    "updatedAt": "2026-11-03T17:53:23.407Z"
+    "updatedAt": "2026-11-03T18:36:38.389Z"
   },
   {
     "id": "MLB18932156",
     "name": "Ventilador de Mesa 30cm Super Power Mondial 60W VSP-30-B",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_620576-MLA99958768953_112025-V.webp",
-    "price": "139,80",
-    "oldPrice": "199,00",
+    "price": "134,90",
+    "oldPrice": "189,90",
     "installment": null,
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2zYUTgh",
-    "updatedAt": "2026-11-03T17:53:23.492Z"
+    "updatedAt": "2026-11-03T18:36:38.722Z"
   },
   {
     "id": "MLB27080589",
@@ -319,7 +319,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2XbfGSh",
-    "updatedAt": "2026-11-03T17:53:23.614Z"
+    "updatedAt": "2026-11-03T18:36:38.860Z"
   },
   {
     "id": "MLB20306137",
@@ -333,7 +333,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1sAjmyd",
-    "updatedAt": "2026-11-03T17:53:23.606Z"
+    "updatedAt": "2026-11-03T18:36:39.012Z"
   },
   {
     "id": "MLB21672188",
@@ -347,21 +347,21 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2nCC3YV",
-    "updatedAt": "2026-11-03T17:53:24.885Z"
+    "updatedAt": "2026-11-03T18:36:39.840Z"
   },
   {
     "id": "MLB25363151",
     "name": "Aspirador Britânia 1250w 1l Bas1295p Preto Britânia Bas1295p 1 L",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_697821-MLA100079435211_122025-V.webp",
-    "price": "140,61",
-    "oldPrice": "234,29",
-    "installment": "ou R$ 152,84 em outros meios",
+    "price": "182,74",
+    "oldPrice": "269,00",
+    "installment": "12x R$ 18,09",
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1KdNGuE",
-    "updatedAt": "2026-11-03T17:53:24.944Z"
+    "updatedAt": "2026-11-03T18:36:40.305Z"
   },
   {
     "id": "MLB18238727",
@@ -375,7 +375,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1sUSPad",
-    "updatedAt": "2026-11-03T17:53:25.093Z"
+    "updatedAt": "2026-11-03T18:36:40.308Z"
   },
   {
     "id": "MLB15578948",
@@ -389,7 +389,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1SdDe4z",
-    "updatedAt": "2026-11-03T17:53:25.087Z"
+    "updatedAt": "2026-11-03T18:36:40.444Z"
   },
   {
     "id": "MLB16602518",
@@ -403,7 +403,21 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1j2TFsV",
-    "updatedAt": "2026-11-03T17:53:26.498Z"
+    "updatedAt": "2026-11-03T18:36:41.338Z"
+  },
+  {
+    "id": "MLB25741527",
+    "name": "Sanduicheira Elétrica Cadence SAN400 Preta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_633183-MLA99468751756_112025-V.webp",
+    "price": "93,99",
+    "oldPrice": "157,74",
+    "installment": null,
+    "freeShipping": false,
+    "highlight": "MAIS VENDIDO",
+    "officialStore": true,
+    "store": "mercadolivre",
+    "link": "https://meli.la/2T8Dn7R",
+    "updatedAt": "2026-11-03T18:36:42.321Z"
   },
   {
     "id": "MLB30144703",
@@ -417,7 +431,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1Nh5A9u",
-    "updatedAt": "2026-11-03T17:53:26.556Z"
+    "updatedAt": "2026-11-03T18:36:41.820Z"
   },
   {
     "id": "MLB4317803385",
@@ -431,7 +445,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2ZCdz4R",
-    "updatedAt": "2026-11-03T17:53:26.702Z"
+    "updatedAt": "2026-11-03T18:36:41.994Z"
   },
   {
     "id": "MLB24076624",
@@ -445,7 +459,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1Z2Ypyy",
-    "updatedAt": "2026-11-03T17:53:26.670Z"
+    "updatedAt": "2026-11-03T18:36:42.911Z"
   },
   {
     "id": "MLB64896669",
@@ -459,7 +473,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/14uxSQ9",
-    "updatedAt": "2026-11-03T17:53:27.982Z"
+    "updatedAt": "2026-11-03T18:36:43.539Z"
   },
   {
     "id": "MLB3621404839",
@@ -473,7 +487,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/19kY6DN",
-    "updatedAt": "2026-11-03T17:53:28.032Z"
+    "updatedAt": "2026-11-03T18:36:43.542Z"
   },
   {
     "id": "MLB24656724",
@@ -487,7 +501,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1zEvA3p",
-    "updatedAt": "2026-11-03T17:53:28.146Z"
+    "updatedAt": "2026-11-03T18:36:43.909Z"
   },
   {
     "id": "MLB69649128",
@@ -501,7 +515,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1afFZqT",
-    "updatedAt": "2026-11-03T17:53:28.153Z"
+    "updatedAt": "2026-11-03T18:36:44.379Z"
   },
   {
     "id": "MLB62519400",
@@ -515,7 +529,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1Rzhm1o",
-    "updatedAt": "2026-11-03T17:53:29.464Z"
+    "updatedAt": "2026-11-03T18:36:45.020Z"
   },
   {
     "id": "MLB79915624",
@@ -529,7 +543,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1L1X9dp",
-    "updatedAt": "2026-11-03T17:53:29.638Z"
+    "updatedAt": "2026-11-03T18:36:45.204Z"
   },
   {
     "id": "MLB4501167459",
@@ -543,7 +557,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2QEr9ZB",
-    "updatedAt": "2026-11-03T17:53:29.646Z"
+    "updatedAt": "2026-11-03T18:36:45.419Z"
   },
   {
     "id": "MLB54982411",
@@ -557,7 +571,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2SSf1E3",
-    "updatedAt": "2026-11-03T17:53:29.599Z"
+    "updatedAt": "2026-11-03T18:36:45.829Z"
   },
   {
     "id": "MLB73209637",
@@ -571,7 +585,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2SrrWMu",
-    "updatedAt": "2026-11-03T17:53:30.943Z"
+    "updatedAt": "2026-11-03T18:36:46.506Z"
   },
   {
     "id": "MLB55762063",
@@ -585,7 +599,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2wfRqrj",
-    "updatedAt": "2026-11-03T17:53:31.052Z"
+    "updatedAt": "2026-11-03T18:36:46.786Z"
   },
   {
     "id": "MLB54961556",
@@ -599,7 +613,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/33Gc1Ny",
-    "updatedAt": "2026-11-03T17:53:31.085Z"
+    "updatedAt": "2026-11-03T18:36:46.846Z"
   },
   {
     "id": "MLB65041642",
@@ -613,7 +627,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2kHLUss",
-    "updatedAt": "2026-11-03T17:53:31.095Z"
+    "updatedAt": "2026-11-03T18:36:47.349Z"
   },
   {
     "id": "MLB47889235",
@@ -627,7 +641,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/13Dk8JA",
-    "updatedAt": "2026-11-03T17:53:32.381Z"
+    "updatedAt": "2026-11-03T18:36:47.948Z"
   },
   {
     "id": "MLB47814270",
@@ -641,7 +655,21 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/12GBYkW",
-    "updatedAt": "2026-11-03T17:53:32.495Z"
+    "updatedAt": "2026-11-03T18:36:48.228Z"
+  },
+  {
+    "id": "MLB39962085",
+    "name": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_715678-MLU78765136521_082024-V.webp",
+    "price": "72,20",
+    "oldPrice": "76,00",
+    "installment": "ou R$ 76,00 em outros meios",
+    "freeShipping": false,
+    "highlight": "MAIS VENDIDO",
+    "officialStore": false,
+    "store": "mercadolivre",
+    "link": "https://meli.la/1DXwoZM",
+    "updatedAt": "2026-11-03T18:36:48.396Z"
   },
   {
     "id": "MLB25263382",
@@ -655,7 +683,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1GnWSYf",
-    "updatedAt": "2026-11-03T17:53:32.545Z"
+    "updatedAt": "2026-11-03T18:36:48.824Z"
   },
   {
     "id": "MLB21278806",
@@ -669,7 +697,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2VCs4Nh",
-    "updatedAt": "2026-11-03T17:53:32.637Z"
+    "updatedAt": "2026-11-03T18:36:49.416Z"
   },
   {
     "id": "MLB68488129",
@@ -683,7 +711,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1ffN1Nk",
-    "updatedAt": "2026-11-03T17:53:33.858Z"
+    "updatedAt": "2026-11-03T18:36:49.708Z"
   },
   {
     "id": "MLB63966639",
@@ -697,7 +725,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2BggEXt",
-    "updatedAt": "2026-11-03T17:53:33.981Z"
+    "updatedAt": "2026-11-03T18:36:49.924Z"
   },
   {
     "id": "MLB60276890",
@@ -711,21 +739,21 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2cqEBJb",
-    "updatedAt": "2026-11-03T17:53:34.102Z"
+    "updatedAt": "2026-11-03T18:36:50.446Z"
   },
   {
     "id": "MLB40656539",
     "name": "Starlink Mini Kit Antena Satélite com Roteador Wi-Fi",
     "image": "https://http2.mlstatic.com/D_NQ_NP_2X_799612-MLA95359719699_102025-V.webp",
-    "price": "520,00",
-    "oldPrice": null,
-    "installment": "12x R$ 50,28",
+    "price": "499,00",
+    "oldPrice": "999,00",
+    "installment": "12x R$ 48,25",
     "freeShipping": false,
     "highlight": "MAIS VENDIDO",
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2D4Yb1s",
-    "updatedAt": "2026-11-03T17:53:34.654Z"
+    "updatedAt": "2026-11-03T18:36:51.015Z"
   },
   {
     "id": "MLB11286621",
@@ -739,7 +767,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/2Wbdnpq",
-    "updatedAt": "2026-11-03T17:53:35.461Z"
+    "updatedAt": "2026-11-03T18:36:51.328Z"
   },
   {
     "id": "MLB61496034",
@@ -753,7 +781,21 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/22Z1xwd",
-    "updatedAt": "2026-11-03T17:53:35.610Z"
+    "updatedAt": "2026-11-03T18:36:51.498Z"
+  },
+  {
+    "id": "MLB44361342",
+    "name": "Cabo De Rede Internet 30m 30 Metros Cat6 Azul Crimpado Giga Lan Ethernet Boyu Cell",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_795187-MLA107571017470_032026-V.webp",
+    "price": "41,45",
+    "oldPrice": "64,90",
+    "installment": null,
+    "freeShipping": false,
+    "highlight": null,
+    "officialStore": true,
+    "store": "mercadolivre",
+    "link": "https://meli.la/1eggT4G",
+    "updatedAt": "2026-11-03T18:36:52.057Z"
   },
   {
     "id": "MLB27065699",
@@ -767,7 +809,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1xtYZnk",
-    "updatedAt": "2026-11-03T17:53:36.007Z"
+    "updatedAt": "2026-11-03T18:36:52.485Z"
   },
   {
     "id": "MLB50389060",
@@ -781,7 +823,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/34iv2m3",
-    "updatedAt": "2026-11-03T17:53:36.100Z"
+    "updatedAt": "2026-11-03T18:36:52.874Z"
   },
   {
     "id": "MLB44923446",
@@ -795,7 +837,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1hNSxkP",
-    "updatedAt": "2026-11-03T17:53:37.108Z"
+    "updatedAt": "2026-11-03T18:36:53.141Z"
   },
   {
     "id": "MLB45474714",
@@ -809,7 +851,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1xHJJqr",
-    "updatedAt": "2026-11-03T17:53:37.058Z"
+    "updatedAt": "2026-11-03T18:36:53.468Z"
   },
   {
     "id": "MLB5532075156",
@@ -823,7 +865,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2FokmH7",
-    "updatedAt": "2026-11-03T17:53:37.474Z"
+    "updatedAt": "2026-11-03T18:36:53.896Z"
   },
   {
     "id": "MLB3616720913",
@@ -837,7 +879,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2UPNHjm",
-    "updatedAt": "2026-11-03T17:53:37.517Z"
+    "updatedAt": "2026-11-03T18:36:54.321Z"
   },
   {
     "id": "MLB4592320910",
@@ -851,7 +893,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2G1Hi2X",
-    "updatedAt": "2026-11-03T17:53:38.491Z"
+    "updatedAt": "2026-11-03T18:36:54.612Z"
   },
   {
     "id": "MLB6233803300",
@@ -865,7 +907,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/1N4RPns",
-    "updatedAt": "2026-11-03T17:53:38.529Z"
+    "updatedAt": "2026-11-03T18:36:54.938Z"
   },
   {
     "id": "MLB4182420507",
@@ -879,7 +921,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/117XvGz",
-    "updatedAt": "2026-11-03T17:53:39.130Z"
+    "updatedAt": "2026-11-03T18:36:55.372Z"
   },
   {
     "id": "MLB3396120483",
@@ -893,7 +935,7 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/1NxGnci",
-    "updatedAt": "2026-11-03T17:53:39.204Z"
+    "updatedAt": "2026-11-03T18:36:55.765Z"
   },
   {
     "id": "MLB5044170500",
@@ -907,7 +949,7 @@
     "officialStore": false,
     "store": "mercadolivre",
     "link": "https://meli.la/27UGn2Y",
-    "updatedAt": "2026-11-03T17:53:39.907Z"
+    "updatedAt": "2026-11-03T18:36:56.041Z"
   },
   {
     "id": "MLB5004194280",
@@ -921,6 +963,6 @@
     "officialStore": true,
     "store": "mercadolivre",
     "link": "https://meli.la/2uN1a5t",
-    "updatedAt": "2026-11-03T17:53:39.957Z"
+    "updatedAt": "2026-11-03T18:36:56.354Z"
   }
 ]
