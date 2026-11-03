@@ -150,12 +150,25 @@ Edite o array em `src/data/categories.js`. Para dar um ícone a uma categoria no
 adicione-a em `CATEGORY_ICONS` dentro de `src/components/Icons.jsx` (sem isso ela
 usa um ícone padrão).
 
-## Atualizar o projeto no GitHub
+## Publicar o site (Cloudflare)
 
-Depois de mudar produtos ou preços:
+O site fica em https://mprodutos.com.br, num Worker do Cloudflare chamado
+`mprodutos` (configuração em `wrangler.jsonc`). O Cloudflare **não** está
+ligado ao GitHub: depois de mudar produtos ou preços, publique com:
 
 ```
 npm run atualizar
+npm run publicar
+```
+
+`npm run publicar` gera o site e envia para o Cloudflare. Na primeira vez em
+um computador novo, ele pede login no Cloudflare pelo navegador.
+
+## Atualizar o projeto no GitHub
+
+O GitHub guarda o código (não publica o site). Depois de publicar:
+
+```
 git add .
 git commit -m "Atualiza produtos"
 git push

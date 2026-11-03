@@ -16,3 +16,6 @@ Thumbs.db
 .claude/
 graphify-out/
 CLAUDE.md
+
+# Arquivos temporários do Cloudflare (wrangler)
+.wrangler/

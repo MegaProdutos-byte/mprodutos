@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "atualizar": "node scripts/atualizar.mjs"
+    "atualizar": "node scripts/atualizar.mjs",
+    "publicar": "npm run build && npx --yes wrangler@latest deploy"
   },
   "dependencies": {
     "react": "^18.3.1",

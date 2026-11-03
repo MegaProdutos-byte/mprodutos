@@ -1,0 +1,14 @@
+// Configuração da publicação no Cloudflare (Worker "mprodutos", que serve
+// o site em mprodutos.com.br). Publicar: npm run publicar
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "mprodutos",
+  "compatibility_date": "2026-11-03",
+  // Site estático: o Cloudflare serve os arquivos gerados por "npm run build".
+  "assets": {
+    "directory": "./dist"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
