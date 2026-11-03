@@ -49,8 +49,14 @@ let products = productList.flatMap((item) => {
 
 // Se dois links levarem ao mesmo produto (o Mercado Livre às vezes troca um
 // anúncio que saiu do ar por outro), ele aparece uma vez só: vale o primeiro.
-const seenIds = new Set()
-products = products.filter((p) => !seenIds.has(p.id) && seenIds.add(p.id))
+// O mesmo vale para um link colado duas vezes em products.js. Cards repetidos
+// confundem o React e fazem o card "grudar" e se multiplicar na tela.
+const seen = new Set()
+products = products.filter((p) => {
+  if (seen.has(p.id) || seen.has(p.link)) return false
+  seen.add(p.id).add(p.link)
+  return true
+})
 
 // Quantidade de produtos por loja, para as abas.
 const storeCounts = Object.fromEntries(
