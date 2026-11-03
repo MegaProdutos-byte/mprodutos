@@ -237,6 +237,8 @@ async function main() {
   // Mantém a ordem de products.js mesmo buscando vários ao mesmo tempo.
   const result = new Array(products.length)
   const failures = []
+  // Links cujo anúncio foi trocado pelo Mercado Livre (o original saiu do ar).
+  const changed = []
   let ok = 0
   let next = 0
 
@@ -258,6 +260,9 @@ async function main() {
           updatedAt: new Date().toISOString(),
         }
         ok++
+        if (saved?.id && data.id && saved.id !== data.id) {
+          changed.push({ product, from: saved.name, to: data.name })
+        }
         console.log(`✔ ${label}\n    ${data.name} — R$ ${data.price}`)
       } catch (err) {
         // Mantém os últimos dados salvos; o site esconde o produto se ele
@@ -287,6 +292,24 @@ async function main() {
         : 'ainda não aparece no site'
       console.log(`  • ${product.link} (${(product.categories ?? []).join(', ') || 'sem categoria'}) — ${message}; ${since}`)
     }
+  }
+
+  if (changed.length > 0) {
+    console.log('\nLinks que passaram a mostrar OUTRO produto (o anúncio original provavelmente saiu do ar):')
+    for (const { product, from, to } of changed) {
+      console.log(`  • ${product.link}\n      antes: ${from}\n      agora: ${to}`)
+    }
+  }
+
+  // Dois links levando ao mesmo produto: no site ele aparece uma vez só.
+  const byId = new Map()
+  for (const [i, item] of result.entries()) {
+    if (item?.id) byId.set(item.id, [...(byId.get(item.id) ?? []), products[i].link])
+  }
+  const duplicates = [...byId.values()].filter((links) => links.length > 1)
+  if (duplicates.length > 0) {
+    console.log('\nLinks que levam ao MESMO produto (no site ele aparece uma vez só; troque o link repetido):')
+    for (const links of duplicates) console.log(`  • ${links.join('  =  ')}`)
   }
 }
 

@@ -27,7 +27,7 @@ const lastUpdate =generated.reduce((max, g) => (g.updatedAt > max ? g.updatedAt 
 const STALE_MS = 3 * 24 * 60 * 60 * 1000
 const isFresh = (g) => g && Date.parse(lastUpdate) - Date.parse(g.updatedAt) <= STALE_MS
 
-const products = productList.flatMap((item) => {
+let products = productList.flatMap((item) => {
   const store = detectStore(item)
   const categories = item.categories ?? []
   const data = AUTO_STORES.includes(store)
@@ -46,6 +46,11 @@ const products = productList.flatMap((item) => {
     discount: discountPercent(data.price, data.oldPrice),
   }]
 })
+
+// Se dois links levarem ao mesmo produto (o Mercado Livre às vezes troca um
+// anúncio que saiu do ar por outro), ele aparece uma vez só: vale o primeiro.
+const seenIds = new Set()
+products = products.filter((p) => !seenIds.has(p.id) && seenIds.add(p.id))
 
 // Quantidade de produtos por loja, para as abas.
 const storeCounts = Object.fromEntries(

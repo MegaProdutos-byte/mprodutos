@@ -224,10 +224,13 @@ export const products = [
     link: 'https://meli.la/33Gc1Ny',
     categories: ['Celulares'],
   },
-  {
-    link: 'https://meli.la/2Y4PfTF',
-    categories: ['Celulares'],
-  },
+  // PRODUTO REPETIDO: este link agora mostra o mesmo celular do 2SSf1E3. O anúncio
+  // original ("Smartphone Galaxy A17 Câmera Tripla 256 Gb 4g A175 Samsung") saiu do ar.
+  // Gere o link de afiliado de novo, troque abaixo e tire as // das 4 linhas.
+  // {
+  //   link: 'https://meli.la/2Y4PfTF',
+  //   categories: ['Celulares'],
+  // },
   {
     link: 'https://meli.la/2kHLUss',
     categories: ['Celulares'],
