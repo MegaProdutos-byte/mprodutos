@@ -38,6 +38,48 @@
 // Mudar categorias ou remover um produto aparece no site na hora.
 
 export const products = [
+  //Natal
+  {
+    link: 'https://meli.la/2VXrCow',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/1mXyFXC',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/2CNfxHP',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/1yhJcFy',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/2D39Xxm',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/25JP6jr',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/2jpds3f',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/2mtVvQB',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/2jWs4pE',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/1WoF6vH',
+    categories: ['Natal'],
+  },
+
   // Esportes
   {
     link: 'https://meli.la/1KzAaBQ',
@@ -330,47 +372,5 @@ export const products = [
   {
     link: 'https://meli.la/2uN1a5t',
     categories: ['Moda'],
-  },
-
-  //Natal
-  {
-    link: 'https://meli.la/2VXrCow',
-    categories: ['Natal'],
-  },
-  {
-    link: 'https://meli.la/1mXyFXC',
-    categories: ['Natal'],
-  },
-  {
-    link: 'https://meli.la/2CNfxHP',
-    categories: ['Natal'],
-  },
-  {
-    link: 'https://meli.la/1yhJcFy',
-    categories: ['Natal'],
-  },
-  {
-    link: 'https://meli.la/2D39Xxm',
-    categories: ['Natal'],
-  },
-  {
-    link: 'https://meli.la/25JP6jr',
-    categories: ['Natal'],
-  },
-  {
-    link: 'https://meli.la/2jpds3f',
-    categories: ['Natal'],
-  },
-  {
-    link: 'https://meli.la/2mtVvQB',
-    categories: ['Natal'],
-  },
-  {
-    link: 'https://meli.la/2jWs4pE',
-    categories: ['Natal'],
-  },
-  {
-    link: 'https://meli.la/1WoF6vH',
-    categories: ['Natal'],
   },
 ]
