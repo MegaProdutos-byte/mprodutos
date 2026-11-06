@@ -76,6 +76,9 @@ export const CATEGORY_ICONS = {
   Moda: (p) => (
     <Svg {...p}><path d="M8 3 3 6l2 4 2-1v12h10V9l2 1 2-4-5-3c-.5 1.7-2 3-4 3S8.5 4.7 8 3Z" /></Svg>
   ),
+  Natal: (p) => (
+    <Svg {...p}><path d="m12 2 1 2h-2zM12 4 7 10h3l-4 5h3l-4 5h14l-4-5h3l-4-5h3z" /><path d="M12 20v2" /></Svg>
+  ),
 }
 
 export function CategoryIcon({ name, ...p }) {

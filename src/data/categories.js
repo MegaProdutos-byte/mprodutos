@@ -10,4 +10,5 @@ export const categories = [
   'Informática',
   'Esportes',
   'Moda',
+  'Natal',
 ]

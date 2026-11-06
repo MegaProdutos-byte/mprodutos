@@ -223,12 +223,10 @@ export const products = [
     link: 'https://meli.la/33Gc1Ny',
     categories: ['Celulares'],
   },
-  // LINK REPETIDO: este é o link da Sanduicheira (o mesmo de Eletrodomésticos),
-  // colado aqui por engano. Coloque o link do celular, troque abaixo e tire as // das 4 linhas.
-  // {
-  //   link: 'https://meli.la/2T8Dn7R',
-  //   categories: ['Celulares'],
-  // },
+  {
+   link: 'https://meli.la/1QyVYSz',
+   categories: ['Celulares'],//
+  },
   {
     link: 'https://meli.la/2kHLUss',
     categories: ['Celulares'],
@@ -332,5 +330,47 @@ export const products = [
   {
     link: 'https://meli.la/2uN1a5t',
     categories: ['Moda'],
+  },
+
+  //Natal
+  {
+    link: 'https://meli.la/2VXrCow',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/1mXyFXC',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/2CNfxHP',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/1yhJcFy',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/2D39Xxm',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/25JP6jr',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/2jpds3f',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/2mtVvQB',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/2jWs4pE',
+    categories: ['Natal'],
+  },
+  {
+    link: 'https://meli.la/1WoF6vH',
+    categories: ['Natal'],
   },
 ]
